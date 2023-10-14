@@ -1,9 +1,6 @@
-import chromedriver_autoinstaller
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-
-chromedriver_autoinstaller.install()
 
 url = "https://clickhelp.org/me/cliente"
 
