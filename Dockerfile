@@ -1,4 +1,4 @@
-FROM python:3.12
+FROM python:3.10
 
 # Instale as dependências necessárias
 RUN apt-get update && apt-get -y install wget curl unzip gnupg
