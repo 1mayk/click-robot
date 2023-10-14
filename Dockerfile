@@ -17,7 +17,7 @@ RUN apt-get update && apt-get -y install wget curl unzip && \
 
 WORKDIR /app
 
-COPY robot.py .
+COPY . .
 
 RUN pip install -r requirements.txt
 
