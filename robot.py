@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
 
-url = "https://clickhelp.org/me/cliente"
+# url = "https://clickhelp.org/me/cliente"
+url = "https://clickhelp-sandbox.vercel.app/me/cliente"
 
 driver = webdriver.Chrome()
 
