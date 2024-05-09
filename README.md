@@ -6,7 +6,9 @@
 
 ## 2 - Acessar ambiente
 
-     source .venv/bin/activate
+     Linux: source .venv/bin/activate
+
+     Windows: .venv/Scripts/activate
 
 ## 3 - Verificar se está dentro do ambiente virtual
 
